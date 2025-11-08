@@ -1,7 +1,9 @@
 # mdo_appeals
 
 ---
-**ЗАДАНИЕ 1:**
+# ЗАДАНИЕ 1:
+
+Jupyter Notebook - https://github.com/cashman2100/mdo_appeals/blob/update_2/mdo_appeals_eda.ipynb
 
 **Бизнес-задача** - Реализовать предсказание "количества часов", которое пройдет с момента "принятия/создания" ЖКХ Заявки до момента ее "выполнения/закрытия".
 
@@ -23,7 +25,7 @@
 
 
 **Набор данных (25221 поступивших и выполненных/завершенных заявок за 2024 год):**
-- Файл - https://github.com/cashman2100/mdo_appeals/blob/main/mdo_appeals_25221.csv
+- Файл с данными - https://github.com/cashman2100/mdo_appeals/blob/main/mdo_appeals_25221.csv
 - Колонки:
   - **year_day** - день года
   - **created_by_id** - ID сотрудника, создавшего заявку
@@ -41,3 +43,8 @@
 - Остальные поля могут содержать пропуски (будет проанализировано в EDA)
 - Связь между **category_id** и **priority** не строгая
 
+
+---
+# ЗАДАНИЕ 2:
+
+Jupyter Notebook - https://github.com/cashman2100/mdo_appeals/blob/update_2/mdo_appeals_baseline.ipynb
