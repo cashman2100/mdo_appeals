@@ -45,6 +45,18 @@ Jupyter Notebook - https://github.com/cashman2100/mdo_appeals/blob/update_2/mdo_
 
 
 ---
-# ЗАДАНИЕ 2:
+# ЗАДАНИЕ 2 - "Построение и оценка baseline моделей"
 
-Jupyter Notebook - https://github.com/cashman2100/mdo_appeals/blob/update_2/mdo_appeals_baseline.ipynb
+Jupyter Notebook - https://github.com/cashman2100/mdo_appeals/blob/main/mdo_appeals_baseline.ipynb
+
+---
+# ЗАДАНИЕ 3 - "Построение ансамблевой модели с интерпретацией"
+
+Jupyter Notebook - https://github.com/cashman2100/mdo_appeals/blob/main/mdo_appeals_ensemble.ipynb
+
+ПРИМЕЧАНИЯ:
+1) В этой версии учтены замечания к предыдущему заданию - `priority` и другие категориальные признаки обрабатываются через OneHotEncoding.
+2) Запуск в Collab может занимать длительное время...
+  - 6.1 Random Forest с подбором гиперпараметров - `13 минут`
+  - 6.2 Gradient Boosting с подбором гиперпараметров - `8 минут`
+  - 8.3 SHAP анализ для глобальной интерпретации - `33 минуты`
